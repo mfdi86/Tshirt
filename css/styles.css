@@ -1,0 +1,80 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient( #cccccc, #ffffff, #cccccc); /* Safari */
+  background: -o-linear-gradient( #cccccc, #ffffff, #cccccc); /* Opera 11.6 to 12.0 */
+  background: -moz-linear-gradient( #cccccc, #ffffff, #cccccc); /* Firefox 3.6 to 15 */
+  background: linear-gradient(#cccccc, #ffffff, #cccccc); /* Standard syntax */
+  width: 100%;
+  height: 100%;
+  color: #000000;
+}
+
+p {
+  font-family: 'Chathura', sans-serif;
+  font-size: 40px;
+}
+
+header h1{
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 0 60px 0;
+  padding: 30px;
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 60px;
+  border-bottom: 1px solid #cccccc;
+  color: black;
+
+}
+
+header p {
+  position: absolute;
+  right: 70px;
+  top: 0px;
+  color: #b38c19;
+  text-shadow: -1px 1px 5px grey;
+}
+
+.tshirt {
+  position: relative;
+  left: 150px;
+  top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.caption1 > p {
+  position: absolute;
+  left: 210px;
+  top: 160px;
+}
+
+.caption2 > p {
+  position: absolute;
+  left: 380px;
+  top: 380px;
+}
+
+.similar {
+  /*position: absolute;*/
+  padding-bottom: 50px;
+  padding-top: 30px;
+  float: left;
+  overflow: auto;
+
+}
+.similar img {
+  border: 2px solid black;
+  width: 125px;
+  height: 125px;
+  margin: 5px;
+  padding:2px;
+
+}
