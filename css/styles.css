@@ -8,10 +8,10 @@
 
 html {
   background: white; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient( #cccccc, #ffffff, #cccccc); /* Safari */
-  background: -o-linear-gradient( #cccccc, #ffffff, #cccccc); /* Opera 11.6 to 12.0 */
-  background: -moz-linear-gradient( #cccccc, #ffffff, #cccccc); /* Firefox 3.6 to 15 */
-  background: linear-gradient(#cccccc, #ffffff, #cccccc); /* Standard syntax */
+  background: -webkit-linear-gradient( #e6e4e4, #ffffff, #e6e4e4); /* Safari */
+  background: -o-linear-gradient( #e6e4e4, #ffffff, #e6e4e4); /* Opera 11.6 to 12.0 */
+  background: -moz-linear-gradient( #e6e4e4, #ffffff, #e6e4e4); /* Firefox 3.6 to 15 */
+  background: linear-gradient(#e6e4e4, #ffffff, #e6e4e4); /* Standard syntax */
   width: 100%;
   height: 1300px;
   color: #000000;
@@ -22,56 +22,61 @@ p {
   font-size: 40px;
 }
 
-header h1{
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.5);
+header h1 {
+  position: absolute;
+  left:120px;
+  /*background-color: rgba(255, 255, 255, 0.5);*/
   margin: 0 0 60px 0;
   padding: 30px;
   font-family: 'Julius Sans One', sans-serif;
   font-size: 60px;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid #878687;
   color: black;
 }
 
 .wreath img {
   position: absolute;
   top: 40px;
-  left: 245px;
+  left: 90px;
   height: 40px;
 }
 
-header p {
+.nav p {
   position: absolute;
-  right: 70px;
+  left: 870px;
   top: 0px;
-  color: #b38c19;
+  color: #927531;
   text-shadow: -1px 1px 5px grey;
 }
 
-.tshirt {
+
+
+.tshirt > img {
   position: relative;
   left: 150px;
-  top: 100px;
+  top: 300px;
   padding-bottom: 100px;
 
 }
 
-.tshirt img{
-    cursor: -moz-zoom-in;
-    cursor: -webkit-zoom-in;
-    cursor: zoom-in;
+.tshirt > img:hover {
+  cursor: -moz-zoom-in;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+
+
 }
 
 .caption1 > p {
   position: absolute;
   left: 210px;
-  top: 160px;
+  top: 165px;
 }
 
 .caption2 > p {
   position: absolute;
   left: 380px;
-  top: 380px;
+  top: 390px;
 }
 
 .description > p {
@@ -86,44 +91,62 @@ header p {
 
 #cart {
   position: absolute;
-  left: 900px;
+  left: 1010px;
   top: 515px;
   height: 30px;
 }
 
 #cart:hover {
-  border: 3px solid white;
-  height: 35px;
+  border: 1px solid black;
+  height: 34px;
 }
 
 .browse > p {
 position: absolute;
-top: 650px;
-left: 50px;
+top: 700px;
+left: 170px;
 }
 
 .similar {
   position: absolute;
   padding-bottom: 50px;
-  padding-top: 190px;
-  padding-left: 70px;
+  padding-top: 440px;
+  padding-left: 200px;
   float: left;
   overflow: auto;
 
 }
 .similar img {
-  border: 2px solid black;
+  border: 2px solid #cbcbcb;
   width: 125px;
   height: 125px;
   margin: 10px;
   padding:2px;
 }
 
+.similar img:hover {
+  border: 3px solid #a2a2a2;
+  width: 125px;
+  height: 125px;
+  margin: 10px;
+  padding:2px;
+  cursor: -moz-zoom-in;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+.sizingchart > p {
+position: absolute;
+top: 700px;
+left: 770px;
+}
+
 .table {
   position: absolute;
-  left: 600px;
-  top: 800px;
+  left: 700px;
+  top: 950px;
 }
+
 tr:first-of-type {
   background-color: #d09aab;
   margin: 0;
