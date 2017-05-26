@@ -9,11 +9,11 @@
 html {
   background: white; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient( #e6e4e4, #ffffff, #e6e4e4); /* Safari */
-  background: -o-linear-gradient( #e6e4e4, #ffffff, #e6e4e4); /* Opera 11.6 to 12.0 */
-  background: -moz-linear-gradient( #e6e4e4, #ffffff, #e6e4e4); /* Firefox 3.6 to 15 */
-  background: linear-gradient(#e6e4e4, #ffffff, #e6e4e4); /* Standard syntax */
+  background: -o-linear-gradient( #cbcbcb, #ffffff, #cbcbcb); /* Opera 11.6 to 12.0 */
+  background: -moz-linear-gradient( #cbcbcb, #ffffff, #cbcbcb); /* Firefox 3.6 to 15 */
+  background: linear-gradient(#cbcbcb, #ffffff, #cbcbcb); /* Standard syntax */
   width: 100%;
-  height: 1300px;
+  height: 1000px;
   color: #000000;
 }
 
@@ -43,7 +43,7 @@ header h1 {
 
 .nav p {
   position: absolute;
-  left: 870px;
+  left: 850px;
   top: 0px;
   color: #927531;
   text-shadow: -1px 1px 5px grey;
@@ -164,4 +164,10 @@ th:first-of-type {
 table {
   border-collapse:collapse;
   margin-left: 30px;
+}
+
+.license > p {
+  text-align: center;
+  position: relative;
+  bottom: -1200px;
 }
