@@ -28,8 +28,6 @@ p::first-line {
 
 .head-wrapper {
   position: relative;
-
-  /*width: 900px;*/
 }
 
  h1 {
@@ -43,7 +41,6 @@ p::first-line {
   color: black;
 }
 
-
 .nav {
   float: right;
   padding-right: 150px;
@@ -52,13 +49,11 @@ p::first-line {
   color: #a72611;
   font-family: 'Julius Sans One', sans-serif;
   text-shadow: -1px 1px 5px grey;
-
 }
 
 .tshirt-wrapper {
   position: relative;
   top: 20px;
-
 }
 
 .tshirt > img {
@@ -85,6 +80,8 @@ p::first-line {
   left: 380px;
   top: 330px;
 }
+
+/*- - - - - - - - - - - - DESCRIPTION SECTION- - - - - - - - - - - - - - */
 
 .description > p {
   position: absolute;
@@ -115,6 +112,7 @@ p::first-line {
   float: left;
   top: 500px;
   padding-left: 100px;
+
 }
 
 #browse {
@@ -128,7 +126,6 @@ top: 130px;
   padding-top: 400px;
   padding-left: 100px;
   float: left;
-  overflow: auto;
 }
 
 .similar img {
@@ -149,16 +146,16 @@ top: 130px;
   cursor: -webkit-zoom-in;
   cursor: zoom-in;
 }
-/*- - - - - - - - - - BROWSE SECTION END - - - - - - - - - - -*/
-
 
 /*- - - - - - - - - - - - - - TABLE STYLING - - - - - - - - - - - - - -*/
 
 .sizingchart-wrapper {
-position: relative;
-float: right;
-top: 630px;
-right: 180px;
+
+  position: relative;
+  float: right;
+  top: 630px;
+  right: 180px;
+
 }
 
 tr:first-of-type {
