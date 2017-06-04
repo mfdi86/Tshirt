@@ -22,61 +22,63 @@ p {
   font-size: 40px;
 }
 
-header h1 {
-  position: absolute;
-  left:120px;
-  /*background-color: rgba(255, 255, 255, 0.5);*/
-  margin: 0 0 60px 0;
-  padding: 30px;
+.head-wrapper {
+  position: relative;
+
+  /*width: 900px;*/
+}
+
+ h1 {
+  position: relative;
+  margin: 40px 0 0px 0;
+  padding-bottom: 30px;
+  padding-left: 100px;
   font-family: 'Julius Sans One', sans-serif;
   font-size: 60px;
   border-bottom: 1px solid #878687;
   color: black;
 }
 
-.wreath img {
-  position: absolute;
-  top: 40px;
-  left: 90px;
-  height: 40px;
-}
 
-.nav p {
-  position: absolute;
-  left: 850px;
-  top: 0px;
+.nav {
+  float: right;
+  padding-right: 150px;
+  padding-top: 40px;
+  padding-left: 20px;
   color: #927531;
   text-shadow: -1px 1px 5px grey;
+
 }
 
+.tshirt-wrapper {
+  position: relative;
+  top: 20px;
 
+}
 
 .tshirt > img {
-  position: relative;
+  position: absolute;
   left: 150px;
-  top: 300px;
+  top: 200px;
   padding-bottom: 100px;
-
 }
 
 .tshirt > img:hover {
   cursor: -moz-zoom-in;
   cursor: -webkit-zoom-in;
   cursor: zoom-in;
-
-
 }
 
-.caption1 > p {
+#cap1 {
   position: absolute;
   left: 210px;
-  top: 165px;
+  top: 65px;
 }
 
-.caption2 > p {
+#cap2 {
   position: absolute;
   left: 380px;
-  top: 390px;
+  top: 330px;
 }
 
 .description > p {
@@ -108,14 +110,14 @@ left: 170px;
 }
 
 .similar {
-  position: absolute;
+  position: relative;
   padding-bottom: 50px;
   padding-top: 440px;
   padding-left: 200px;
   float: left;
   overflow: auto;
-
 }
+
 .similar img {
   border: 2px solid #cbcbcb;
   width: 125px;
